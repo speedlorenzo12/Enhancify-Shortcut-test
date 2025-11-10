@@ -1,6 +1,6 @@
-# Shortcut for Revancify
+# Shortcut for Xisr-Revancify
 
-Simple shortcut to get started with Revancify.
+Simple shortcut to get started with Xisr-Revancify.
 
 Supported only on Android 8.0+.
 
