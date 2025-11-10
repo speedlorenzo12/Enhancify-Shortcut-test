@@ -1,4 +1,4 @@
-package com.termux.revancify;
+package com.termux.xisr;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
