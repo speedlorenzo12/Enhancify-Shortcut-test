@@ -20,7 +20,7 @@ public final class MainActivity extends Activity {
     /**
      * Revancify github
      */
-    private static final String REVANCIFY_GITHUB = "https://github.com/Xisrr1/Revancify-Xisr#installation";
+    private static final String REVANCIFY_GITHUB = "https://github.com/Graywizard888/Enhancify#installation";
 
     /**
      * Revancify path
