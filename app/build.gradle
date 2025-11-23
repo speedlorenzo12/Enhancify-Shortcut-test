@@ -6,9 +6,9 @@ android {
     compileSdk 28
 
     defaultConfig {
-        applicationId "com.termux.xisr"
+        applicationId "com.termux.enhancify"
         minSdk 26
-        namespace "com.termux.xisr"
+        namespace "com.termux.enhancify"
         //noinspection ExpiredTargetSdkVersion
         targetSdk 28
         versionCode 102
