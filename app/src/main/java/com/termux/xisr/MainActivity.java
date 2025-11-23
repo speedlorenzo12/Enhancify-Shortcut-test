@@ -1,4 +1,4 @@
-package com.termux.xisr;
+package com.termux.enhancify;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
