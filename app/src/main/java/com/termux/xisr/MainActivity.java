@@ -26,7 +26,7 @@ public final class MainActivity extends Activity {
      * Revancify path
      */
     @SuppressLint("SdCardPath")
-    private static final String REVANCIFY_PATH = "/data/data/com.termux/files/usr/bin/xisr";
+    private static final String REVANCIFY_PATH = "/data/data/com.termux/files/usr/bin/enhancify";
 
     /**
      * Target permission name
