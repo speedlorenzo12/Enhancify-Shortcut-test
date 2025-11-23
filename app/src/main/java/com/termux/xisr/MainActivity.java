@@ -54,7 +54,7 @@ public final class MainActivity extends Activity {
     protected void onCreate(Bundle bundle) {
         super.onCreate(bundle);
 
-        Helper.activity = this;
+        com.termux.enhancify.blue2.Helper.activity = this;
         checkTermuxEnabled();
         checkPermissionAndRunTermux();
     }
@@ -65,15 +65,15 @@ public final class MainActivity extends Activity {
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 runTermux();
             } else {
-                Helper.showToastShort(getString(R.string.toast_require_permission));
+                com.termux.enhancify.blue2.Helper.showToastShort(getString(R.string.toast_require_permission));
                 finish();
             }
         }
     }
 
     private void checkTermuxEnabled() {
-        if (!Helper.isPackageEnabled(TERMUX_PACKAGE_NAME)) {
-            Helper.showToastShort(getString(R.string.toast_termux_not_found));
+        if (!com.termux.enhancify.blue2.Helper.isPackageEnabled(TERMUX_PACKAGE_NAME)) {
+            com.termux.enhancify.blue2.Helper.showToastShort(getString(R.string.toast_termux_not_found));
             Intent intent = new Intent(Intent.ACTION_VIEW);
             intent.setData(Uri.parse(TERMUX_MONET_RELEASES));
             startActivity(intent);
@@ -88,7 +88,7 @@ public final class MainActivity extends Activity {
 
         if (checkSelfPermission != PackageManager.PERMISSION_GRANTED) {
             if (shouldShowRequestPermission) {
-                Helper.showToastShort(getString(R.string.toast_require_permission));
+                com.termux.enhancify.blue2.Helper.showToastShort(getString(R.string.toast_require_permission));
             }
 
             ActivityCompat.requestPermissions(this, new String[]{
@@ -113,9 +113,9 @@ public final class MainActivity extends Activity {
             intent.putExtra("com.termux.RUN_COMMAND_SESSION_ACTION", "0");
             startForegroundService(intent);
 
-            Helper.showToastShort(getString(R.string.toast_run_revancify));
+            com.termux.enhancify.blue2.Helper.showToastShort(getString(R.string.toast_run_revancify));
         } catch (Exception ex) {
-            Helper.showToastShort(getString(R.string.toast_revancify_not_found));
+            com.termux.enhancify.blue2.Helper.showToastShort(getString(R.string.toast_revancify_not_found));
             Intent intent = new Intent(Intent.ACTION_VIEW);
             intent.setData(Uri.parse(REVANCIFY_GITHUB));
             startActivity(intent);
