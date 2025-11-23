@@ -1,6 +1,6 @@
 # Shortcut for Enhancify
 
-Simple shortcut to get started with Revancify-Xisr.
+Simple shortcut to get started with Enhancify.
 
 Supported only on Android 8.0+.
 
