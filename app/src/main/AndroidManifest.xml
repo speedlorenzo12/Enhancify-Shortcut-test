@@ -16,7 +16,7 @@
         android:theme="@android:style/Theme.Translucent.NoTitleBar">
         <activity
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
-            android:name="com.termux.xisr.MainActivity"
+            android:name="com.termux.enhancify.MainActivity"
             android:noHistory="true"
             android:exported="true">
             <intent-filter>
