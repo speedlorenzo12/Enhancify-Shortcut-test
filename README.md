@@ -16,9 +16,9 @@ echo 'allow-external-apps = true' >> ~/.termux/termux.properties && termux-reloa
 # Thanks
 @inotia00 https://github.com/inotia00/RevancifyShortcut
 
-@Graywizard888 https://github.com/Graywizard888/Enhancify
-
 @YuzuMikan404 https://github.com/YuzuMikan404/RevancifyXisrShortcut
+
+@Graywizard888 https://github.com/Graywizard888/Enhancify
 
 ### License
 
