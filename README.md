@@ -1,4 +1,4 @@
-# Shortcut for Revancify-Xisr
+# Shortcut for Enhancify
 
 Simple shortcut to get started with Revancify-Xisr.
 
@@ -16,7 +16,9 @@ echo 'allow-external-apps = true' >> ~/.termux/termux.properties && termux-reloa
 # Thanks
 @inotia00 https://github.com/inotia00/RevancifyShortcut
 
-@Xisrr1 https://github.com/Xisrr1/Revancify-Xisr
+@Graywizard888 https://github.com/Graywizard888/Enhancify
+
+@YuzuMikan404 https://github.com/YuzuMikan404/RevancifyXisrShortcut
 
 ### License
 
